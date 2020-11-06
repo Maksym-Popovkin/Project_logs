@@ -76,3 +76,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 
 --------------Finish job-------------
+Fri Nov  6 14:14:37 UTC 2020
+--------------Start job--------------
+--The server Prod is already running-
+--------------Finish job-------------
