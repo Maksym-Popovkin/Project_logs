@@ -1,4 +1,0 @@
-Wed Nov  4 11:28:20 UTC 2020
---------------Start job--------------
-----The server is already running----
---------------Finish job-------------
