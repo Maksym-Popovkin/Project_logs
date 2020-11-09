@@ -240,3 +240,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 
 --------------Finish job-------------
+Mon Nov  9 07:37:03 UTC 2020
+--------------Start job--------------
+--The server Dev is already running--
+--------------Finish job-------------
