@@ -1,0 +1,10 @@
+Mon Nov  9 12:36:21 UTC 2020
+--------------Start job--------------
+--------Dev Server deployment--------
+
+PLAY [Create AWS EC2 Instance] *************************************************
+
+TASK [Create group with Port 22, 80 and 443 Open to 0.0.0.0/0] *****************
+ok: [localhost]
+
+TASK [Create New AWS EC2 Server] ***********************************************
