@@ -441,3 +441,48 @@ ok: [localhost] => {
 PLAY RECAP *********************************************************************
 localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 
+--------------Server test--------------
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 52.29.37.162 (be patient)
+
+
+Server Software:        Apache/2.2.34
+Server Hostname:        52.29.37.162
+Server Port:            80
+
+Document Path:          /
+Document Length:        3839 bytes
+
+Concurrency Level:      500
+Time taken for tests:   1.809 seconds
+Complete requests:      5000
+Failed requests:        0
+Non-2xx responses:      5000
+Total transferred:      20185000 bytes
+HTML transferred:       19195000 bytes
+Requests per second:    2764.54 [#/sec] (mean)
+Time per request:       180.862 [ms] (mean)
+Time per request:       0.362 [ms] (mean, across all concurrent requests)
+Transfer rate:          10898.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   34 172.3      1    1025
+Processing:    10  109 309.3     34    1752
+Waiting:        3  109 309.3     34    1752
+Total:         27  143 379.1     36    1783
+
+Percentage of the requests served within a certain time (ms)
+  50%     36
+  66%     39
+  75%     41
+  80%     43
+  90%     68
+  95%   1438
+  98%   1731
+  99%   1769
+ 100%   1783 (longest request)
+--------------Finish job--------------
