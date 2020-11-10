@@ -608,3 +608,13 @@ Percentage of the requests served within a certain time (ms)
   99%   1885
  100%   1937 (longest request)
 --------------Finish job--------------
+Tue Nov 10 10:04:48 UTC 2020
+--------------Start job--------------
+--------Test Server deployment-------
+
+PLAY [Create AWS EC2 Instance] *************************************************
+
+TASK [Create group with Port 22, 80 and 443 Open to 0.0.0.0/0] *****************
+ok: [localhost]
+
+TASK [Create New AWS EC2 Server] ***********************************************
