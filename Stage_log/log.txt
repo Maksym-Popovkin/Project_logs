@@ -958,3 +958,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 
 --------------Finish job--------------
+Wed Nov 11 09:17:38 UTC 2020
+--------------Start job--------------
+-The server Stage is already running-
+--------------Finish job--------------
